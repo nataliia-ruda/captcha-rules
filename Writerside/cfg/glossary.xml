@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE terms SYSTEM "https://resources.jetbrains.com/writerside/1.0/glossary.dtd">
+<terms>
+
+    <term name="hour-bucket">
+        A time-based grouping of requests used for traffic analysis.
+        The system groups requests by hour (for example, 9:00–9:59 or 10:00–10:59) to monitor and compare traffic patterns.
+    </term>
+
+    <term name="blacklist">
+        A list of IP addresses that have been identified as sources of suspicious or malicious traffic.
+        Requests from these IP addresses automatically trigger CAPTCHA verification.
+    </term>
+
+    <term name="payload">
+        The data included in a request sent to the service, such as form fields and the values submitted by a user.
+    </term>
+
+</terms>

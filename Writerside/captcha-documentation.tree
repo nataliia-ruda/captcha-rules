@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="captcha-documentation"
+                  name="Captcha Documentation"
+                  start-page="CAPTCHA-Triggering-Rules-and-Protection-Logic.md">
+
+    <toc-element topic="CAPTCHA-Triggering-Rules-and-Protection-Logic.md"/>
+
+</instance-profile>
