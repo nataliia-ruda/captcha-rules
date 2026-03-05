@@ -53,7 +53,7 @@ jobs:
 
       - name: Unzip generated website
         run: |
-          ZIP_FILE=$(ls artifacts/*.zip | head -n 1)
+          ZIP_FILE=$(ls artifacts/webHelp*.zip | head -n 1)
           echo "Unzipping $ZIP_FILE"
           unzip -O UTF-8 -qq "$ZIP_FILE" -d site
 
